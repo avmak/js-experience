@@ -1,5 +1,5 @@
-for (var name in map) {
-  if (map.hasOwnProperty(name)) {
-    console.log(name);
+for (var key in map) {
+  if (map.hasOwnProperty(key)) {
+    console.log(key + " = " + map[key]);
   }
 }
